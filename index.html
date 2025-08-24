@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وب‌سایت آموزشی</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- هدر -->
+  <header class="bg-blue-600 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">🎓 وب‌سایت آموزشی</h1>
+      <nav class="space-x-4 space-x-reverse">
+        <a href="#home" class="hover:text-yellow-300">خانه</a>
+        <a href="#videos" class="hover:text-yellow-300">ویدیوها</a>
+        <a href="#categories" class="hover:text-yellow-300">دسته‌بندی‌ها</a>
+        <a href="#about" class="hover:text-yellow-300">درباره ما</a>
+        <a href="#contact" class="hover:text-yellow-300">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- بنر -->
+  <section id="home" class="bg-cover bg-center h-80 flex items-center justify-center text-center text-white" 
+           style="background-image: url('https://picsum.photos/1200/500');">
+    <div class="bg-black bg-opacity-50 p-6 rounded-xl">
+      <h2 class="text-3xl font-bold mb-2 animate-bounce">به دنیای آموزش خوش اومدی 🚀</h2>
+      <p class="text-lg">ترفندهای جالب + آموزش‌های کاربردی و جذاب</p>
+    </div>
+  </section>
+
+  <!-- ویدیوها -->
+  <section id="videos" class="max-w-6xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-bold mb-6">🎥 ویدیوهای جدید</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3">
+        <img src="https://picsum.photos/400/250?1" class="rounded-xl mb-3" alt="">
+        <h3 class="font-semibold">ترفند شماره ۱</h3>
+        <p class="text-sm text-gray-600">یک توضیح کوتاه درباره این ویدیو.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3">
+        <img src="https://picsum.photos/400/250?2" class="rounded-xl mb-3" alt="">
+        <h3 class="font-semibold">ترفند شماره ۲</h3>
+        <p class="text-sm text-gray-600">یک توضیح کوتاه درباره این ویدیو.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3">
+        <img src="https://picsum.photos/400/250?3" class="rounded-xl mb-3" alt="">
+        <h3 class="font-semibold">ترفند شماره ۳</h3>
+        <p class="text-sm text-gray-600">یک توضیح کوتاه درباره این ویدیو.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- دسته‌بندی‌ها -->
+  <section id="categories" class="bg-gray-100 py-10 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">📂 دسته‌بندی‌ها</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+        <div class="bg-white shadow rounded-xl p-6 hover:bg-blue-50 transition">تکنولوژی</div>
+        <div class="bg-white shadow rounded-xl p-6 hover:bg-blue-50 transition">خلاقیت</div>
+        <div class="bg-white shadow rounded-xl p-6 hover:bg-blue-50 transition">سرگرمی</div>
+        <div class="bg-white shadow rounded-xl p-6 hover:bg-blue-50 transition">مهارت‌های زندگی</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- درباره ما -->
+  <section id="about" class="max-w-4xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-bold mb-4">ℹ️ درباره ما</h2>
+    <p class="text-gray-700 leading-relaxed">
+      ما اینجا هستیم تا بهترین ویدیوهای آموزشی و ترفندهای جالب رو به شما ارائه بدیم. 
+      هدف ما یادگیری سریع، سرگرم‌کننده و تاثیرگذاره.  
+    </p>
+  </section>
+
+  <!-- تماس با ما -->
+  <section id="contact" class="bg-blue-50 py-10 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">📞 تماس با ما</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="نام شما" class="w-full p-3 rounded-xl border">
+        <input type="email" placeholder="ایمیل شما" class="w-full p-3 rounded-xl border">
+        <textarea rows="4" placeholder="پیام شما" class="w-full p-3 rounded-xl border"></textarea>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">ارسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="bg-gray-800 text-gray-300 text-center py-4">
+    © 2025 - تمامی حقوق محفوظ است.
+  </footer>
+
+</body>
+</html>
